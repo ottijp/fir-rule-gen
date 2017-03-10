@@ -1,0 +1,19 @@
+{
+  "name": "fir-rule-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ottijp/fir-rule-gen.git"
+  },
+  "author": "Satoshi SAKAO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ottijp/fir-rule-gen/issues"
+  },
+  "homepage": "https://github.com/ottijp/fir-rule-gen#readme"
+}
