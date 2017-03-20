@@ -1,0 +1,15 @@
+LV1,LV2,LV3,col2,INDEX,TYPE,description,READ,WRITE,CONDITION
+users,,,abc,,,,,,
+,$user,,,,string,,,,
+,groups,,,,,"this
+Is
+Memo",,,
+,,$group,,,string,,,,newData.val().length > 5
+,name,,,x,string,,,,
+groups,,,,,,,true,,
+  users,users,,,,string,,,,
+devices,,,,,,,auth.uid !== null,false,
+,$devices,,,,,,,,
+,name,,,x,string,,,,
+,version,,,,,,,,newData.getPriority() != null
+,valid,,,x,boolean,,,,

@@ -1,0 +1,44 @@
+{
+  "rules": {
+    "users": {
+      "$user": {
+        ".validate": "newData.isString()"
+      },
+      "groups": {
+        "$group": {
+          ".validate": "(newData.isString()) && (newData.val().length > 5)"
+        }
+      },
+      "name": {
+        ".validate": "newData.isString()"
+      },
+      ".indexOn": [
+        "name"
+      ]
+    },
+    "groups": {
+      ".read": "true"
+    },
+    "  users": {
+      ".validate": "newData.isString()"
+    },
+    "devices": {
+      ".read": "auth.uid !== null",
+      ".write": "false",
+      "$devices": {},
+      "name": {
+        ".validate": "newData.isString()"
+      },
+      ".indexOn": [
+        "name",
+        "valid"
+      ],
+      "version": {
+        ".validate": "newData.getPriority() != null"
+      },
+      "valid": {
+        ".validate": "newData.isBoolean()"
+      }
+    }
+  }
+}
