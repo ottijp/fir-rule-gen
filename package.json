@@ -36,5 +36,14 @@
   },
   "directories": {
     "test": "test/"
-  }
+  },
+  "keywords": [
+    "firebase",
+    "realtime database",
+    "csv",
+    "json",
+    "rule",
+    "converter",
+    "generator"
+  ]
 }
