@@ -89,7 +89,7 @@ $ npm install -g fir-rule-gen
 $ fir-rule-gen <src_csv_path> <dest_json_path>
 ```
 
-(or you can use it in pile)
+(or you can use it in pipe)
 
 ```
 $ cat <src_csv_path> | fir-rule-gen > <dest_json_path>
