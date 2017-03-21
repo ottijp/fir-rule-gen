@@ -4,6 +4,7 @@
   "description": "Rule generator for Firebase",
   "scripts": {
     "start": "bin/fir-rule-gen",
+    "lint": "eslint lib",
     "test": "mocha"
   },
   "repository": {
@@ -18,7 +19,8 @@
   "homepage": "https://github.com/ottijp/fir-rule-gen#readme",
   "dependencies": {
     "cli": "^1.0.1",
-    "csv": "^1.1.1"
+    "csv": "^1.1.1",
+    "eslint": "^3.18.0"
   },
   "devDependencies": {
     "intelli-espower-loader": "^1.0.1",

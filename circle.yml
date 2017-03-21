@@ -1,3 +1,4 @@
 test:
   override:
+    - npm lint
     - npm test
