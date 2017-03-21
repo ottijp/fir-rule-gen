@@ -10,6 +10,6 @@ groups,,,,,,,true,,
   users,users,,,,string,,,,
 devices,,,,,,,auth.uid !== null,false,
 ,$devices,,,,,,,,
-,name,,,x,string,,,,
+,name,,,✅,string,,,,
 ,version,,,,,,,,newData.getPriority() != null
 ,valid,,,x,boolean,,,,
